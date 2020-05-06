@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@380;661&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+$primary: #3c5d71;
+$secondary: #b1004d;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Jost, sans-serif;
+  font-weight: 380;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  line-height: 160%;
+  color: #333;
+}
+
+code {
+  font-family: Share Tech Mono;
+  font-weight: 661;
+  letter-spacing: -1px;
+}
+
+.primary {
+  color: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.title {
+  font-weight: 661;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 100%;
+  margin-bottom: 2rem;
+}

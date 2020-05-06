@@ -1,5 +1,5 @@
 {
-  "name": "with-typescript",
+  "name": "with-typescript-and-sass",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -11,7 +11,8 @@
     "isomorphic-unfetch": "3.0.0",
     "next": "latest",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "sass": "^1.26.5"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
