@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next"
 
-export default (_: NextApiRequest, res: NextApiResponse) => {
-  res.send({ message: "Next.js + Typescript + Sass = ❤️" })
+export default async (req: NextApiRequest, res: NextApiResponse) => {
+  res.send(req.body)
 }

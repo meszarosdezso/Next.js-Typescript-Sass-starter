@@ -1,11 +1,11 @@
-const IndexPage: React.FC = () => (
-  <div className="IndexPage">
-    <h1 className="title">Next.js + Typescript + Sass = ❤</h1>
-    <h3>
-      Get started by editing <code className="primary">index.tsx</code> and{" "}
-      <code className="secondary">main.scss</code>!
-    </h3>
-  </div>
-)
+import Layout from "../components/Layout"
 
-export default IndexPage
+const Home: React.FC = () => {
+  return (
+    <Layout title="Home" bodyClass="Home">
+      <h1 className="title">Next.js + Sass + Typescript = ❤️</h1>
+    </Layout>
+  )
+}
+
+export default Home
